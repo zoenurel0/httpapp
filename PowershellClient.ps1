@@ -14,13 +14,21 @@ $wholeObject = $returnData.Content | ConvertFrom-Json
 
 
 foreach ($record in $wholeObject.objects){
+
+#Write-Output $record "`n"
+
+"Name:{0}, Party:{1}, Phone:{2}, State:{3} `n" -f $($record.person.name),$($record.party),$($record.phone),$($record.state)
+
+
 $record = ($record | ConvertTo-Json)
 
-Write-Output $record "`n"
 
-Invoke-WebRequest -Uri "http://localhost:3000/console" -Method Post -Body $record -Headers $headers
+$return = Invoke-WebRequest -Uri "http://localhost:3000/console" -Method Post -Body $record -Headers $headers
+"Status to console: $($return.StatusCode) `n" 
 
-Invoke-WebRequest -Uri "http://localhost:3000/file" -Method Post -Body $record -Headers $headers
+
+$return = Invoke-WebRequest -Uri "http://localhost:3000/file" -Method Post -Body $record -Headers $headers
+"Status to file: $($return.StatusCode) `n`n`n" 
 
 sleep -Seconds 3
 

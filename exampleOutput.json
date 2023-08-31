@@ -1,0 +1,52 @@
+{
+    "caucus": null,
+    "congress_numbers": [
+        116,
+        117,
+        118
+    ],
+    "current": true,
+    "description": "Senior Senator for Delaware",
+    "district": null,
+    "enddate": "2025-01-03",
+    "extra": {
+        "address": "513 Hart Senate Office Building Washington DC 20510",
+        "contact_form": "https://www.carper.senate.gov/contact/",
+        "office": "513 Hart Senate Office Building",
+        "rss_url": "http://www.carper.senate.gov/public/index.cfm/rss/feed"
+    },
+    "leadership_title": null,
+    "party": "Democrat",
+    "person": {
+        "bioguideid": "C000174",
+        "birthday": "1947-01-23",
+        "cspanid": 663,
+        "fediverse_webfinger": null,
+        "firstname": "Thomas",
+        "gender": "male",
+        "gender_label": "Male",
+        "lastname": "Carper",
+        "link": "https://www.govtrack.us/congress/members/thomas_carper/300019",
+        "middlename": "Richard",
+        "name": "Sen. Thomas Carper [D-DE]",
+        "namemod": "",
+        "nickname": "",
+        "osid": "N00012508",
+        "pvsid": "22421",
+        "sortname": "Carper, Thomas (Sen.) [D-DE]",
+        "twitterid": "SenatorCarper",
+        "youtubeid": "senatorcarper"
+    },
+    "phone": "202-224-2441",
+    "role_type": "senator",
+    "role_type_label": "Senator",
+    "senator_class": "class1",
+    "senator_class_label": "Class 1",
+    "senator_rank": "senior",
+    "senator_rank_label": "Senior",
+    "startdate": "2019-01-03",
+    "state": "DE",
+    "title": "Sen.",
+    "title_long": "Senator",
+    "website": "https://www.carper.senate.gov"
+}
